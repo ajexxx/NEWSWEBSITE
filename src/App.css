@@ -1,6 +1,13 @@
+ 
+
 .App {
   text-align: center;
+  background:#f6f8fc;
+  padding: 0;
+  margin: 0;
+  
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +29,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* max-width: 100%; */
 }
 
 .App-link {
@@ -32,7 +40,377 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+.heder{
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  z-index: 986;
+  width: 100%;
+  
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.n6ef1{
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.Da1Shd{
+  font-size: 1.75rem;
+    font-family: "Google Sans", sans-serif;
+    line-height: 1.1428571429;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.Hp1DDd{
+  font-size: .875rem;
+    font-family: "Google Sans", sans-serif;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+}
+#myimg{
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.container{
+  position: relative;
+  top: 12px
+}
+
+#con{
+  position: relative;
+  top: 136px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.artcle {
+  font-size: .875rem;
+  color: #444746;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 0 14px 0 0;
+  gap: 6px;
+}
+
+.ndtv {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  min-width: 14px;
+}
+
+.image {
+  width: 22px;
+}
+.img{
+  height: 64px;
+  width: 64px;
+  
+}
+
+
+.microsoft {
+   
+  border-radius: 7px;
+}
+
+
+.NDTV {
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  display: flex;
+  flex-direction: column;
+ text-align: justify;
+  font-weight: inherit;
+  color: #444746;
+  margin-right: 18px;
+}
+
+.time {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 16px;
+  color: #444746;
+  width: 100%;
+  margin-top: -15px;
+}
+.time1{
+  display: flex;
+  
+  justify-content: space-between;
+
+  
+}
+
+.top {
+  color: blue;
+}
+.topstory{
+  position: relative;
+  left: 116px;
+}
+
+.p {
+  font-weight: 400;
+  font-family: "Google Sans", sans-serif;
+  color: #1f1f1f;
+  text-align: justify;
+
+  overflow: hidden;
+  /* text-decoration: underline; */
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.3;
+
+}
+
+.fullcoverage {
+  width: 172px;
+  margin-left: auto;
+  margin-top: 42px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
+
+.fullcover {
+  font-size: .75rem;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Google Sans Text", "Roboto", sans-serif;
+  background: #f2f2f2;
+  color: #444746;
+  border-radius: 14px;
+  align-self: flex-end;
+}
+#fullcover{
+  width: 25px;
+}
+
+.news {
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.leopard {
+   text-align: justify;
+  font-size: 1rem;
+    font-family: "Google Sans", sans-serif;
+    line-height: 1.25;
+    text-decoration: none;
+    font-weight: 500;
+    color: #1f1f1f
+    
+    
+}
+.fav{
+  display: flex;
+  gap: 38px;
+}
+
+#img {
+  height: 64px;
+  width: 64px;
+  border-radius: 5px;
+
+}
+.TIME{
+  height: 12px;
+}
+
+.newscontainer {
+  display: flex;
+  
+    align-items: flex-start;
+    min-width: 0;
+    height: inherit;
+}
+
+.pic{
+  display: flex;
+  justify-content: space-between;
+}
+.picc{
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.cardd{
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+.timesindia{
+  display: flex;
+  justify-content: space-between;
+}
+#svg{
+  margin-right: 67px;
+}
+#svgg{
+  width: 24ps;
+  height: 24px;
+}
+#sv{
+  display: flex;
+  justify-content:center ;
+  gap: 30px;
+  
+}
+/* .carddd{
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  
+} */
+.btn-light{
+  display: flex;
+    border-radius: 18px;
+    height: 32px;
+    gap: 10px;
+}
+.HIN{
+  display: flex;
+  justify-content: space-between;
+}
+#hin{
+  min-width: 0;
+    object-fit: contain;
+    object-position: left;
+    max-height: 20px;
+    width: 100%;
+    margin: 4px 0;
+}
+#BTN{
+  width: 100%;
+  font-size: 0.75rem;
+  background: #3c4043;padding: 5px;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  margin-top: 14px;
+}
+#showcase{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 18px;
+  margin-left: -2px;
+}
+.time11{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    box-align: center;
+    align-items: center;
+    font-size: 0.75rem;
+    font-family: "Google Sans Text", "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.3333333333;
+    color: #444746;
+}
+.fact{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4px;
+
+}
+#svgg{
+margin-right: 1px;
+}
+.anc{
+  display: flex;
+  text-align: justify;
+  font-size: 1rem;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 400;
+    color: #1f1f1f;
+    
+}
+#TIME{
+  display: flex;
+  line-height: 27px;
+
+}
+.nx57Eb{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 18px;
+
+  font-size: .875rem;
+    margin-top: 8px;
+    line-height: 20px;
+    
+    line-height: 20px;
+    color: rgb(95, 99, 104);
+}
+.L7zQSd{
+  font-weight: 500;
+    color: #1f1f1f;
+}
+.nM1aec {
+
+  margin-top: 12px;
+  font-family: "Google Sans Text", "Roboto", sans-serif;
+  border-left: 1.5px solid;
+  border-left-color: #747775;
+}
+.T{
+  display: flex;
+}
+.t{
+  font-size: .75rem;
+  font-family: "Google Sans Text", "Roboto", sans-serif;
+    color: #444746;
+}
+#btn{
+  border-radius: 24px;
+
+}
+/* #container{
+  margin-top: -77px;
+} */
